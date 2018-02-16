@@ -25,7 +25,7 @@ def merge(left, right):
     return result
 
 def merge_sort(a):
-    """Merge sort algorithm O(log n)"""
+    """Merge sort algorithm O(n log n)"""
     # return if the list only has one element
     if len(a) <= 1:
         return a
